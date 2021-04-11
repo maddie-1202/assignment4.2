@@ -1,5 +1,5 @@
 html{
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 25%, rgba(0,0,0,0) 65%, rgba(0,0,0,0.2));
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 30%, rgba(0,0,0,0) 68%, rgba(0,0,0,0.2));
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
@@ -11,8 +11,10 @@ html{
 
 body {
   margin: 0;
-
+  margin-bottom: 0;
 }
+
+
 
 article {
   positon: fixed;
@@ -21,8 +23,8 @@ article {
 
 address {
   position: fixed;
-  bottom: 30px;
-  right: 70px;
+  bottom: 20px;
+  right: 30px;
   font-family: helvetica;
 
 }
@@ -35,7 +37,7 @@ h1 {
   padding: 40px 0;
   width:127px;
   height:47px;
-  top: 40px;
+  top: 20px;
   left: 80px;
   font-size: 20px;
   font-family: arial;
